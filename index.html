@@ -1,0 +1,88 @@
+<!--Declaración del tipo de archivo-->
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Vaquitas</title>
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Body es la estructura de la página-->
+        <h1>Página de vaquitas</h1>
+
+        <h3>Imágenes de Vaquitas Kwaii</h3>
+
+        <!--Imágen desde Internet-->
+        <img class="img1" src="https://i.pinimg.com/originals/b6/3a/80/b63a80b531cdfb3b50569c2b145d8b4d.jpg"> 
+
+        <!--Imágen desde computadora-->
+        <img class="img2" src="imágenes/vaquita.jpg">
+
+        <!--Enlaces externos-->
+        <p>Si quieres ver más imagenes de vaquitas, <a href="https://www.freepik.es/vectores/vaca-kawaii" target="_blank">da click en este enlace</a>.</p>
+
+        <!--Listas-->
+
+        <!--Lista ordenada-->
+        <h3>Listas de vaquitas</h3>
+        <p>3 cosas que las vaquitas <strong>aman</strong>.</p>
+
+        <ol> <!--Ordered list-->
+            <li>Comer</li>
+            <li>Dormir</li>
+            <li>Jugar</li>
+        </ol>
+
+        <!--Lista desordenada-->
+        <p>3 cosas que las vaquitas <em>odian</em>.</p>
+
+        <ul> <!--Unordered list-->
+            <li>Tener frío</li>
+            <li> Comer cebolla</li>
+            <li>Invadir su espacio</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <h3>Formularios</h3>
+        <!--Form con botones de radio-->
+            <p>¿Tu vaquita es ternerita o adulta</p>
+            <label>
+                <input id="ternerita" type="radio" value="ternerita" name="ternerita-adulta"checked>Ternerita
+            </label>
+            <br>
+            <label>
+                <input id="adulta" type="radio" value="adulta" name="ternerita-adulta">Adulta
+            </label>
+
+        <!--Form con casillas de verificación o  checks-->
+            <p>¿Qué tipo de personalidad tiene tu vaquita</p>
+            <label>
+                <input id="tímida" type="checkbox" value="tímida" name="personalidad">Ternerita
+            </label> 
+            <br>
+            <label>
+                <input id="sociable" type="checkbox" value="sociable" name="personalidad">Sociable
+            </label>
+            <br>
+            <label>
+                <input id="perezosa" type="checkbox" value="perezosa" name="personalidad"checked>Perezosa
+            </label>  
+            <br>
+            <label>
+                <input id="tierna" type="checkbox" value="tierna" name="personalidad">Tierna
+            </label> 
+        </form>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.</small></p>
+    </footer>
+
+</html>

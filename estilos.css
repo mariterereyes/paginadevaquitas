@@ -1,0 +1,38 @@
+/*Pongo comentario*/
+
+body {
+    background-color: #8d728c; color:#e2d8d5; 
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+h3 {
+    color:#3d446e;
+}
+
+h1, p {
+    color:#1a0007;
+}
+
+.img1 {
+    width: 280px;
+    height: 320px;
+    border-style:dashed;
+    border-color:white;
+    border-width: thick;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+.img2 {
+    width: 320px;
+    height: 320px;
+    border-style:dashed;
+    border-color:white;
+    border-width: thick;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+small {
+    color: black;
+}
